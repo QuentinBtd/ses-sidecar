@@ -10,7 +10,7 @@ docker run -it \
  -e AWS_SECRET_ACCESS_KEY \
  -e AWS_SESSION_TOKEN \
  -e AWS_REGION \
- ghcr.io/aidansteele/ses-sidecar:latest
+ ghcr.io/QuentinBtd/ses-sidecar:latest
 ```
 
 This will start an SMTP server listening on port 1025 that uses the AWS SES
